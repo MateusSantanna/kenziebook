@@ -1,0 +1,28 @@
+header {
+  width: 100%;
+  height: 4rem;
+  background: var(--grey1);
+  display: flex;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 2.5rem;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+.logo {
+  width: 7rem;
+}
+
+p {
+  color: var(--WhiteFixed);
+  font-size: 0.75rem;
+  line-height: 5.5;
+}

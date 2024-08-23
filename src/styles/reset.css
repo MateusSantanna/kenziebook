@@ -3,6 +3,20 @@
    License: none (public domain)
 */
 
+:root {
+  --brand-1: #364fc7;
+  --brand-2: #4263eb;
+  --grey0: #0a0c0d;
+  --grey1: #212529;
+  --grey2: #495057;
+  --grey3: #868e96;
+  --grey4: #dee2e6;
+  --grey5: #f8f9fa;
+  --grey-opacity-1: rgba(33, 37, 41, 0.5);
+  --WhiteFixed: #ffffff;
+  --like: #d7443e;
+}
+
 html,
 body,
 div,
@@ -112,7 +126,7 @@ section {
   display: block;
 }
 body {
-  line-height: 1;
+  line-height: 4;
 }
 ol,
 ul {

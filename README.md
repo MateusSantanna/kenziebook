@@ -13,7 +13,7 @@ Em 2 meses aprendi muitas coisas valiosas sobre as 3 tecnologias citadas acima, 
   <li>Responsividade</li>
   <li>Orientação a Objetos</li>
   <li>E muito mais ...</li>
-<ul>
+</ul>
 
 
 <p> Quer acessar pelo Figma?

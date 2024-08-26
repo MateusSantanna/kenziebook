@@ -28,13 +28,12 @@
       </div>
     </header>
 
-    <!-- CONTEÚDO PRINCIPAL -->
     <main>
       <!-- ÁREA 1 (CRIAÇÃO DE POST E SUGESTÕES)-->
       <section>
         <!-- CRIAÇÃO DE UM NOVO POST -->
         <section>
-          <div>
+          <div class="userProfile">
             <img src="./src/assets/img/user1.svg" alt="Samuel" />
             <div>
               <h2>Samuel Leão</h2>
@@ -43,7 +42,7 @@
           </div>
 
           <!-- FORM DE CRIAÇÃO DE UM NOVO POST -->
-          <form>
+          <form class="newPost">
             <input
               type="text"
               placeholder="Digite o título do post"
@@ -53,8 +52,6 @@
               placeholder="Digite a descrição do post"
               name=""
               id=""
-              cols="30"
-              rows="10"
               required=""
             ></textarea>
             <button type="submit">Postar</button>
@@ -62,12 +59,12 @@
         </section>
 
         <!-- SUGESTÕES PARA SEGUIR -->
-        <section>
+        <section class="followers">
           <h2>Sugestões para você seguir</h2>
           <ul>
             <!-- SUGESTÃO 1 -->
             <li>
-              <div>
+              <div class="nameUsers">
                 <img src="./src/assets/img/user2.svg" alt="Carlos Lima" />
                 <div>
                   <h2>Carlos Lima</h2>
@@ -76,9 +73,10 @@
               </div>
               <button>Seguir</button>
             </li>
+
             <!-- SUGESTÃO 2 -->
             <li>
-              <div>
+              <div class="nameUsers">
                 <img src="./src/assets/img/user3.svg" alt="Rafael Bertoldo" />
                 <div>
                   <h2>Rafael Bertoldo</h2>
@@ -89,7 +87,7 @@
             </li>
             <!-- SUGESTÃO 3 -->
             <li>
-              <div>
+              <div class="nameUsers">
                 <img src="./src/assets/img/user4.svg" alt="Júlia Martins" />
                 <div>
                   <h2>Júlia Martins</h2>
@@ -103,11 +101,11 @@
       </section>
 
       <!-- ÁREA 2 (LISTAGEM DE POSTS) -->
-      <section>
-        <h2>Posts</h2>
+      <section class="allPosts">
+        <h1>Posts</h1>
         <!-- POST 1 -->
         <article>
-          <div>
+          <div class="postOwner">
             <img src="./src/assets/img/user5.svg" alt="Iris Silva" />
             <div>
               <h2>Iris Silva</h2>
@@ -127,20 +125,22 @@
             cavaleiros Jedi, que compõem o lado bom da força.
           </p>
           <div>
-            <button>Abrir Post</button>
-            <div>
-              <img
-                src="./src/assets/img/gray-heart.svg"
-                alt="Empty Heart(Post not liked)"
-              />
-              <small>25</small>
+            <div class="options">
+              <button>Abrir Post</button>
+              <div>
+                <img
+                  src="./src/assets/img/gray-heart.svg"
+                  alt="Empty Heart(Post not liked)"
+                />
+                <small>25</small>
+              </div>
             </div>
           </div>
         </article>
 
         <!-- POST 2 -->
         <article>
-          <div>
+          <div class="postOwner">
             <img src="./src/assets/img/user6.svg" alt="Carla Maria" />
             <div>
               <h2>Carla Maria</h2>
@@ -161,20 +161,22 @@
             conclusão do curso de fevereiro de 2023 a fevereiro de 2025.
           </p>
           <div>
-            <button>Abrir Post</button>
-            <div>
-              <img
-                src="./src/assets/img/gray-heart.svg"
-                alt="Empty Heart(Post not liked)"
-              />
-              <small>19</small>
+            <div class="options">
+              <button>Abrir Post</button>
+              <div>
+                <img
+                  src="./src/assets/img/gray-heart.svg"
+                  alt="Empty Heart(Post not liked)"
+                />
+                <small>19</small>
+              </div>
             </div>
           </div>
         </article>
 
         <!-- POST 3 -->
         <article>
-          <div>
+          <div class="postOwner">
             <img src="./src/assets/img/user7.svg" alt="João Carvalho" />
             <div>
               <h2>João Carvalho</h2>
@@ -197,13 +199,15 @@
             vão para o objeto), e isso tem seu lado bom e ruim.
           </p>
           <div>
-            <button>Abrir Post</button>
-            <div>
-              <img
-                src="./src/assets/img/gray-heart.svg"
-                alt="Empty Heart(Post not liked)"
-              />
-              <small>8</small>
+            <div class="options">
+              <button>Abrir Post</button>
+              <div>
+                <img
+                  src="./src/assets/img/gray-heart.svg"
+                  alt="Empty Heart(Post not liked)"
+                />
+                <small>8</small>
+              </div>
             </div>
           </div>
         </article>

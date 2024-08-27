@@ -19,4 +19,14 @@ Em 2 meses aprendi muitas coisas valiosas sobre as 3 tecnologias citadas acima, 
 <p> Quer acessar pelo Figma?
 <a href="https://drive.google.com/file/d/13ctLTB62X1oIK4xXQ570JjHGudSZ-IzG/view" target="_blank">Clique aqui </a></p>
 
+## Versão Desktop
+
+![Versão Desktop](https://github.com/user-attachments/assets/07fe77fb-bb03-4d79-931f-278f93715594)
+
+
+## Versão Mobile
+
+![Versão Mobile](https://github.com/user-attachments/assets/88dc0419-a9bb-416a-9cfe-ccedd05c5ef4)
+
+
 Lembrando que esse é um projeto simples e não foi feito para alterar dados, apenas incluí-lo e reutilizar os dados prontos pela Kenzie.
